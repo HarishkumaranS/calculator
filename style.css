@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(82, 114, 82);
+}
+
+section {
+    display: grid;
+    height: 420px;
+    width: 330px;
+    border: 20px solid rgb(38, 51, 38);
+    border-radius: 30px;
+    padding: 25px;
+    background-color: rgb(49, 62, 49);
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(7, auto);
+    gap: 20px;
+}
+
+section div {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 1px 2px 2px rgb(101, 103, 101);
+}
+
+section div:hover {
+    box-shadow: 0px 0px 0px rgb(57, 66, 57);
+    cursor: pointer;
+}
+
+section div:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 60px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: black;
+    background-color: gray;
+}
+
+section div:nth-child(2) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    height: 30px;
+    width: 70px;
+    grid-column-end: 2;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(3) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(4) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(5) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(6) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(7) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(8) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(9) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(10) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(11) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(12) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(13) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(14) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(15) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(16) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(17) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(18) {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(19) {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(20) {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(21) {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(22) {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(23) {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+section div:nth-child(24) {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(38, 51, 38);
+}
+
+#text {
+    background-color: antiquewhite;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: "Amazon Ember", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: end;
+    cursor:default;
+    overflow:hidden ;
+}
+/* Hover effect (grow + glow) */
+section div:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+/* Click animation (squish) */
+section div:active {
+    transform: scale(0.9);
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Funny bounce when calculator loads */
+section {
+    animation: popIn 0.6s ease-in-out;
+}
+
+@keyframes popIn {
+    0%   { transform: scale(0.5); opacity: 0; }
+    60%  { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); }
+}
